@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F5AA14581B1FD1B5003E3F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA14571B1FD1B5003E3F14 /* AppDelegate.swift */; };
-		F5AA145A1B1FD1B5003E3F14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA14591B1FD1B5003E3F14 /* ViewController.swift */; };
 		F5AA145D1B1FD1B5003E3F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AA145B1B1FD1B5003E3F14 /* Main.storyboard */; };
 		F5AA145F1B1FD1B5003E3F14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AA145E1B1FD1B5003E3F14 /* Images.xcassets */; };
 		F5AA14621B1FD1B5003E3F14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AA14601B1FD1B5003E3F14 /* LaunchScreen.xib */; };
 		F5AA146E1B1FD1B5003E3F14 /* View_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA146D1B1FD1B5003E3F14 /* View_SwitcherTests.swift */; };
+		F5AA147A1B1FD2BD003E3F14 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA14791B1FD2BD003E3F14 /* SwitchingViewController.swift */; };
+		F5AA147C1B1FD302003E3F14 /* BlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA147B1B1FD302003E3F14 /* BlackViewController.swift */; };
+		F5AA14801B1FEB9F003E3F14 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA147F1B1FEB9F003E3F14 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		F5AA14521B1FD1B5003E3F14 /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AA14561B1FD1B5003E3F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5AA14571B1FD1B5003E3F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5AA14591B1FD1B5003E3F14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5AA145C1B1FD1B5003E3F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5AA145E1B1FD1B5003E3F14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F5AA14611B1FD1B5003E3F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F5AA14671B1FD1B5003E3F14 /* View SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AA146C1B1FD1B5003E3F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5AA146D1B1FD1B5003E3F14 /* View_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_SwitcherTests.swift; sourceTree = "<group>"; };
+		F5AA14791B1FD2BD003E3F14 /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		F5AA147B1B1FD302003E3F14 /* BlackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackViewController.swift; sourceTree = "<group>"; };
+		F5AA147F1B1FEB9F003E3F14 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				F5AA14571B1FD1B5003E3F14 /* AppDelegate.swift */,
-				F5AA14591B1FD1B5003E3F14 /* ViewController.swift */,
 				F5AA145B1B1FD1B5003E3F14 /* Main.storyboard */,
 				F5AA145E1B1FD1B5003E3F14 /* Images.xcassets */,
 				F5AA14601B1FD1B5003E3F14 /* LaunchScreen.xib */,
 				F5AA14551B1FD1B5003E3F14 /* Supporting Files */,
+				F5AA14791B1FD2BD003E3F14 /* SwitchingViewController.swift */,
+				F5AA147B1B1FD302003E3F14 /* BlackViewController.swift */,
+				F5AA147F1B1FEB9F003E3F14 /* YellowViewController.swift */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5AA145A1B1FD1B5003E3F14 /* ViewController.swift in Sources */,
+				F5AA14801B1FEB9F003E3F14 /* YellowViewController.swift in Sources */,
 				F5AA14581B1FD1B5003E3F14 /* AppDelegate.swift in Sources */,
+				F5AA147A1B1FD2BD003E3F14 /* SwitchingViewController.swift in Sources */,
+				F5AA147C1B1FD302003E3F14 /* BlackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
